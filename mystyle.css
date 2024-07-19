@@ -1,0 +1,12 @@
+html, body[
+    margin: 0;
+    padding: 0;
+]
+/*header*/
+.site-init{
+    background-image: url(./img/header.jpg);
+    background position: center center;
+    background size: cover;
+    height: 400px;
+}
+
