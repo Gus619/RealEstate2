@@ -1,0 +1,13 @@
+
+.pagraphs-container {
+  background-color: skyblue;
+  display: flex;
+  /* gap works with pixels, rem, em */
+  /* 1 rem = 16px */
+  gap: 50px;
+}
+
+
+.span-container {
+  background-color: pink;
+}

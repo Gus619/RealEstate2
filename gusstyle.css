@@ -34,7 +34,7 @@ nav a{
 /*more about*/
 .more-about-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: ;
 }
 
 /*house and penthouses*/

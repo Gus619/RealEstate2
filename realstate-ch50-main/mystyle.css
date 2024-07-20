@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+p{
+    line-height: 2;
+}
+h1,h2,h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+img{
+    max-width: 100%;
+}
+/*header*/
+.site-init{
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    color:white;
+    text-align: center;
+}
+nav a{
+    color:white;
+}
+/*more about*/
+.more-about-container{
+    display: flex;
+    flex-direction: row;
+}
+
+/*house and penthouses*/
+.house-item{
+    background-color: #dedede;
+}
+.house-item-img{
+
+}
+.house-item-text{
+
+    padding:20px;
+}
+.btn-details{
+    display: block;
+    background-color: #c7660b;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
