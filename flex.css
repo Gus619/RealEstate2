@@ -1,0 +1,11 @@
+.flex-gus{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    background-color: yellow;
+}
+/*kids*/
+.flex-nick{
+    background-color: #dedede;
+    height: 100px;
+}
