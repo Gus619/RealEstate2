@@ -7,7 +7,7 @@ body{
     font-weight: 50%;
     font-style:normal;
     background-color: white;
-    text-align: center;
+    text-align: justify;
 }
 
 p{
@@ -18,7 +18,7 @@ p{
 h1,h2,h3{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:
+    background-color:white
 }
 a{
     text-decoration: none;
@@ -28,17 +28,19 @@ a{
 img{
     max-width: 100px;   
 }
-
+/*header*/
 
 /*utilities*/
 .container{
     width: 80px;
     margin-left: auto;
     margin-top: auto;
+
+
+
 }
-/*header*/
 .site-init{
-    background-image:url(./img/header.jpg);
+    background-color:#c7660b;
     background-size: cover;
     background-position: center center;
     height: 400px;
@@ -54,21 +56,26 @@ nav a{
     display:flex;
     flex-direction: row;
     text-align: center;
-   
 }
 
 /*house and penthouses*/
 .house-item{ 
-    background-color: gray;
+    background-color: white;
     margin-right: 8px;
     display: flex;
 }
 .house-item-img{
    width: 425px;
-   background-color: red;
+   background-color: white; 
 }
 .house-item-text{
   padding: 10px;
+}
+
+.house-item ul{
+
+    display: flex;
+    justify-content: space-around;
 }
   /*CONTACT*/
 .site-contact{

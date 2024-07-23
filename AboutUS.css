@@ -1,24 +1,23 @@
 *{
-    margin:0;
-    padding:0;
+    background-color: 
 }
 body{
     font-family: "Roboto", sans-serif;
-    font-weight: 50%;
-    font-style:normal;
+    font-weight: 100%;
+    font-style: italic;
     background-color: white;
-    text-align: center;
+    text-align:center;
+    
 }
 
 p{
     line-height: 2;
-    margin-left: 10px;   
+    margin: 10px;   
 }
 
 h1,h2,h3{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:
 }
 a{
     text-decoration: none;
@@ -26,23 +25,18 @@ a{
 }
 
 img{
-    max-width: 100px;   
-}
-
-
-/*utilities*/
-.container{
-    width: 80px;
-    margin-left: auto;
-    margin-top: auto;
+    max-width: 400px;   
+    margin-block:10%;
 }
 /*header*/
 .site-init{
-    background-image:url(./img/header.jpg);
+    background-image: url(./img/header.jpg);
     background-size: cover;
     background-position: center center;
     height: 400px;
-    color: white;
+    color:white;
+
+
 }
 nav a{
     color: white;
@@ -54,7 +48,6 @@ nav a{
     display:flex;
     flex-direction: row;
     text-align: center;
-   
 }
 
 /*house and penthouses*/
@@ -65,10 +58,16 @@ nav a{
 }
 .house-item-img{
    width: 425px;
-   background-color: red;
+   background-color: white; 
 }
 .house-item-text{
   padding: 10px;
+}
+
+.house-item ul{
+
+    display: flex;
+    justify-content: space-around;
 }
   /*CONTACT*/
 .site-contact{
@@ -84,7 +83,6 @@ nav a{
 .navigation-bar a{
     color: black;
     margin-right:30px;
-    background-color: red;
 }
 .form-container{
     background-color: green;
@@ -97,12 +95,6 @@ nav a{
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    margin-right: 
-}
-
-/*container*/
-.form-container{
-    background-color: #dedede;
 }
 
 .flex-test{
