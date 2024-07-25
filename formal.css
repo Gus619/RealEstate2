@@ -1,45 +1,67 @@
 *{
-    background-color: 
+    margin:0;
+    padding:0;
 }
 body{
+    padding: 30px;
     font-family: "Roboto", sans-serif;
-    font-weight: 100%;
-    font-style: italic;
+    font-weight: 50%;
+    font-style:normal;
     background-color: white;
-    text-align:center;
+    text-align: center;
+    
+    
+    
+    
     
 }
 
 p{
-    line-height: 2;
-    margin: 10px;   
+    line-height: 20px;
+    margin:  20px;  
+    text-align: center;
+    background-color:white;
+    font-weight:bold;
+    
+   
 }
 
 h1,h2,h3{
-    padding-top: 20px;
+    padding-top: 70px;
     padding-bottom: 20px;
+    
 }
 a{
-    text-decoration: none;
+    text-decoration:dashed;
     color: white;
 }
 
 img{
-    max-width: 400px;   
-    margin-block:10%;
+    max-width: 400px;
+    margin-block: 10%;  
+    max-height: 500px;
+}
+
+
+/*utilities*/
+.container{
+    width: 100px;
+    margin-left: auto;
+    margin-top: auto;
 }
 /*header*/
 .site-init{
-    background-image: url(./img/header.jpg);
+    background-color: orange;
     background-size: cover;
-    background-position: center center;
-    height: 400px;
-    color:white;
-
-
+    background-position: bottom center;
+    height: 200px;
+    color: black;
+    
+    
+    
 }
 nav a{
-    color: white;
+    color: 
 }
 
 
@@ -47,7 +69,8 @@ nav a{
 .more-about-container{
     display:flex;
     flex-direction: row;
-    text-align: center;
+    
+   
 }
 
 /*house and penthouses*/
@@ -58,14 +81,14 @@ nav a{
 }
 .house-item-img{
    width: 425px;
-   background-color: white; 
+   background-color: #dedede
+   
 }
 .house-item-text{
   padding: 10px;
 }
 
 .house-item ul{
-
     display: flex;
     justify-content: space-around;
 }
@@ -83,6 +106,7 @@ nav a{
 .navigation-bar a{
     color: black;
     margin-right:30px;
+    background-color: white;
 }
 .form-container{
     background-color: green;
@@ -95,6 +119,12 @@ nav a{
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+}
+
+/*container*/
+.form-container{
+    background-color: #dedede;
+    padding: 10px;
 }
 
 .flex-test{
@@ -117,7 +147,8 @@ legend {
 }
 .label-container label {
     background-color: red;
-    display:inline-block;width:10%;
+    display:inline-block;
+    width:10%;
 
 }
 
@@ -126,25 +157,28 @@ fieldset{
 
     border: 1px solid gray;
     margin: bottom 20px;
+    
 }
 .input-container textarea{
-    display: inline-block;
+    display: flex;
     width: 85%;
-    border: 1px solid red;
+    border: 1px solid red
     padding: 3px;
+    
 
 }
 
 .footer-container{
     display: flex;
     justify-content: space around;
-    align-items: center;
+    align-items: left;
     
 
 }
 
 .text-container{
     display: flex;
+    text-align: left;
 
 }
 

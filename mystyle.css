@@ -3,46 +3,62 @@
     padding:0;
 }
 body{
+    
     font-family: "Roboto", sans-serif;
     font-weight: 50%;
     font-style:normal;
     background-color: white;
     text-align: center;
+    margin: 50px;
+    font-size: x-large
+    
 }
+@media(min-width 758px)
+
+
 
 p{
     line-height: 2;
-    margin-left: 10px;   
+    margin:  20px;  
+    text-align: left;
+    background-color: 
+    font-weight:bold;
+   
 }
 
 h1,h2,h3{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:
+    
 }
 a{
-    text-decoration: none;
+    text-decoration:dashed;
     color: white;
 }
 
 img{
-    max-width: 100px;   
+    max-width: 400px;
+    margin-block: 10%;  
+    background-color: 
 }
 
 
 /*utilities*/
 .container{
-    width: 80px;
+    width: 100px;
     margin-left: auto;
     margin-top: auto;
 }
 /*header*/
 .site-init{
-    background-image:url(./img/header.jpg);
+    background-image: url(./img/header.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: bottom center;
     height: 400px;
     color: white;
+  
+  
+    
 }
 nav a{
     color: white;
@@ -53,10 +69,19 @@ nav a{
 .more-about-container{
     display:flex;
     flex-direction: row;
-    text-align: center;
-   
+}
+@media(max-width:758px){
+
+    .more-about-container{
+    display:flex;
+    flex-direction: row;
+}
+.h2{
+    text-align:center ;
 }
 
+}
+    
 /*house and penthouses*/
 .house-item{ 
     background-color: gray;
@@ -65,10 +90,16 @@ nav a{
 }
 .house-item-img{
    width: 425px;
-   background-color: red;
+   background-color: #dedede
+   
 }
 .house-item-text{
   padding: 10px;
+}
+
+.house-item ul{
+    display: flex;
+    justify-content: space-around;
 }
   /*CONTACT*/
 .site-contact{
@@ -80,11 +111,12 @@ nav a{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    
 }
 .navigation-bar a{
     color: black;
     margin-right:30px;
-    background-color: red;
+    background-color: white;
 }
 .form-container{
     background-color: green;
@@ -97,12 +129,12 @@ nav a{
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    margin-right: 
 }
 
 /*container*/
 .form-container{
     background-color: #dedede;
+    padding: 10px;
 }
 
 .flex-test{
@@ -125,29 +157,31 @@ legend {
 }
 .label-container label {
     background-color: red;
-    display:inline-block;width:10%;
+    display:inline-block;
+    width:10%;
 
 }
 
 fieldset{
     padding: 10px;
-
-    border: 1px solid gray;
+    border: 3px solid red;
     margin: bottom 20px;
+    background-color: orange;
+    text-align: left;
+    
 }
 .input-container textarea{
     display: inline-block;
     width: 85%;
-    border: 1px solid red;
+    border: 1px;
     padding: 3px;
-
+  
 }
 
 .footer-container{
     display: flex;
     justify-content: space around;
     align-items: center;
-    
 
 }
 
@@ -156,3 +190,26 @@ fieldset{
 
 }
 
+/*contact*/
+
+.site-contact{
+
+    background-color: orange;
+}
+.form-container{
+    background-color: blue;
+    border-color: #c7660b;
+
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+.footer-container{
+    display flex:
+    justify-content: space-around;
+}

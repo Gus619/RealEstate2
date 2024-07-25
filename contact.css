@@ -1,0 +1,45 @@
+/*contact*/
+
+.form-container{background-color: #dedede;
+
+
+}
+
+p{
+  
+    text-align:left;
+    font-weight: 1px;
+}
+
+.container{
+
+    background-color: orange;
+    height: 100px;
+    margin:auto;
+}
+
+/*contact*/
+
+.site-contact{
+
+    background-color: orange;
+}
+.form-container{
+    background-color: #dedede;
+    border-color: #c7660b;
+
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+.footer-container{
+    display flex:
+    justify-content: space-around;
+}
+
+   
